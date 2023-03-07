@@ -3,15 +3,15 @@ app = Flask(__name__)   #variabile che identifica il sito web
 
 @app.route('/', methods=['GET'])  #sono tutte le possibili richieste del utente
 def hello_world():
-    return ('<h1>Hello, world!</h1>')
+    return render_template('./MonumentiMilano/index.html')
 
-@app.route('/it', methods=['GET'])
-def ciao_mondo():
-    return ('<h1>Ciao, mondo!</h1>')
+#@app.route('/', methods=['GET'])
+#def ciao_mondo():
+#    return render_template('')
 
-@app.route('/ben', methods=['GET'])
-def inserHtml():
-    return render_template('/workspace/Flask-rifacciamoTutto/templates/benvenuto.html')
+#@app.route('/', methods=['GET'])
+#def inserHtml():
+#    return render_template('')
 
 if __name__ == '__main__':
   app.run(host='0.0.0.0', port=3245, debug=True)    #fà partire il programma
