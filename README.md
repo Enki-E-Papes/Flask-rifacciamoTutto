@@ -47,3 +47,8 @@ Answer of the third question with *italic words*.
 | Headline 1 in the tablehead | Headline 2 in the tablehead | Headline 3 in the tablehead |
 |:---:|:---:|:---:|
 | text-align left | text-align center | text-align right |
+
+
+Riga 1: |Titolo 1 |Titolo 2 |Titolo 3 |
+Riga 2: |:----------: |:----------: |:----------: |
+Riga 3: |testo 1 |testo 2 |testo 3 |
